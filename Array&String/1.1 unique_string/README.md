@@ -7,7 +7,7 @@ first of all, my solution was like
 But there should be a more simpler solution
 
 1. Check the length of the string, if > 128 return false(assume ASCII not Unicode)
-2. Declare the an set with length 128
+2. Declare a set with length 128
 3. Iterative the string and get value from the index, set the appear char as true
 4. if the char is true, then return false indicated it came up before
 

@@ -1,7 +1,7 @@
 import sys
 import string
 
-## assume the string is composed by UNICODE
+## assume the string is composed by ASCII CODE
 
 if len(sys.argv)<2:
     print('no argument')
